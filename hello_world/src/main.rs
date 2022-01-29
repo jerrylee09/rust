@@ -1,4 +1,6 @@
 fn main() {
-    let mut x:  u8= 10;
-    println!("x is {}", x);
+    let x = 10;
+    let y = 1.0 ;
+    let z = x as f64 / y;
+    println!("z is {}", z);
 }
